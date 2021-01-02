@@ -1,0 +1,289 @@
+.container {
+    width: 100%;
+    height: auto;
+    margin: 100px 0px 0px 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 {
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    flex-direction: row;
+}
+
+.box {
+    position: relative;
+    border-radius: 10px;
+    width: auto;
+    background-color: rgb(197, 197, 197, 0.3);
+    outline: none;
+    z-index: 0;
+}
+
+.cardOutlet {
+    width: auto;
+    height: 10%;
+    margin: 5px;
+}
+
+.box:hover,
+.box:focus {
+    top: -6px;
+    right: 7px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    box-shadow: 5px 6px 10px rgba(5, 5, 5, 0.5);
+}
+
+.fontD {
+    font-family: Arial, sans-serif;
+}
+
+.Sm {
+    font-size: 14px;
+}
+
+.fontD1 {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.Mr {
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+.productMatter {
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.headM {
+    margin-top: 7px;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.fa {
+    /* -webkit-text-fill-color: white;*/
+    -webkit-text-stroke: grey;
+    -webkit-text-stroke-width: 1px;
+}
+
+.spa {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+.pricing {
+    float: right;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.price {
+    font-size: 20px;
+    color: red;
+    font-weight: 600;
+}
+
+.price1 {
+    font-size: 18px;
+    color: red;
+    margin-left: 10px;
+    font-weight: 600;
+    max-width: 80px;
+}
+
+.share {
+    font-size: 15px;
+    color: lightgreen;
+    font-weight: 580;
+    margin-left: 40px;
+}
+
+.iconing {
+    display: inline-flex;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.Ol1 {
+    position: relative;
+    right: 125px;
+    padding: 15px;
+    background-color: black;
+}
+
+.Ol2 {
+    position: relative;
+    left: 133px;
+    padding: 15px;
+    background-color: black;
+}
+
+.gapping {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.Istyle {
+    height: 135px;
+    padding: 1px;
+}
+
+.hori {
+    margin-top: 4px;
+}
+
+.noS {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resP {
+    float: left;
+}
+
+.resDis {
+    display: none;
+}
+
+.resI {
+    float: right;
+    border-radius: 50%;
+    padding: 6px;
+    font-size: 11px;
+    background-color: rgb(112, 37, 112, 0.7);
+}
+
+.resT {
+    display: none;
+    width: auto;
+    height: 80px;
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;
+    border-bottom-left-radius: 21px;
+    border-bottom-right-radius: 21px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 12px;
+    border: 1px grey;
+    box-shadow: 1px 1px 2px grey;
+}
+
+.resTI {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.resT1 {
+    padding: 2px;
+    margin-top: 6px;
+}
+
+.resT2 {
+    padding: 2px;
+    margin-top: 6px;
+}
+
+.resS {
+    display: none;
+    width: 43px;
+    height: 22px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 1;
+    margin: 3px;
+    text-align: center;
+}
+
+@media (max-width:1199px) {
+    .container1 {
+        flex-wrap: wrap;
+    }
+    .share {
+        font-size: 8px;
+        margin-left: 25px;
+        font-weight: 400;
+    }
+    .iconing {
+        margin-top: 7px;
+        margin-left: 5px;
+    }
+    .Ol1 {
+        padding: 7px;
+    }
+    .Ol2 {
+        padding: 7px;
+    }
+    .price {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .spa {
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 12px;
+    }
+    .Sm {
+        font-size: 10px;
+    }
+    .fontD1 {
+        font-size: 9px;
+    }
+    .headM {
+        margin-top: 5px;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .productMatter {
+        margin-top: 7px;
+        margin-bottom: 3px;
+    }
+    .cardOutlet {
+        height: 5%;
+    }
+    .Istyle {
+        height: 90px;
+        padding: 0px;
+    }
+    .respons {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .resFoo {
+        display: none;
+    }
+    .resDis {
+        display: block;
+    }
+    .resT {
+        display: block;
+    }
+    .price1 {
+        font-size: 12px;
+        color: red;
+        font-weight: 600;
+    }
+    .resS {
+        display: block;
+    }
+}
