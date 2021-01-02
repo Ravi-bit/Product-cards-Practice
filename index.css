@@ -62,8 +62,8 @@
 }
 
 .productMatter {
-    margin-top: 12px;
-    margin-bottom: 8px;
+    margin-top: 11px;
+    margin-bottom: 7px;
 }
 
 .headM {
@@ -215,6 +215,8 @@
     top: 1;
     margin: 3px;
     text-align: center;
+    z-index: 1;
+    backface-visibility: hidden;
 }
 
 @media (max-width:1199px) {
@@ -261,8 +263,8 @@
         font-weight: 500;
     }
     .productMatter {
-        margin-top: 7px;
-        margin-bottom: 3px;
+        margin-top: 5px;
+        margin-bottom: 2px;
     }
     .cardOutlet {
         height: 5%;
@@ -295,8 +297,5 @@
     }
     .Sm1 {
         font-weight: 410;
-    }
-    .progress {
-        height: 2px;
     }
 }
