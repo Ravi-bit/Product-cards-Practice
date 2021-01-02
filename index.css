@@ -202,6 +202,11 @@
     margin-top: 6px;
 }
 
+.Mr1 {
+    border-radius: 50px;
+    height: 10px;
+}
+
 .resS {
     display: none;
     width: 43px;
@@ -237,7 +242,7 @@
         padding: 7px;
     }
     .price {
-        font-size: 11px;
+        font-size: 10px;
         font-weight: 450;
     }
     .spa {
