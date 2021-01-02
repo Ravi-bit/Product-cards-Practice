@@ -101,7 +101,6 @@
 .price1 {
     font-size: 18px;
     color: red;
-    margin-left: 10px;
     font-weight: 600;
     max-width: 80px;
 }
@@ -279,7 +278,7 @@
         display: block;
     }
     .price1 {
-        font-size: 12px;
+        font-size: 11px;
         color: red;
         font-weight: 600;
     }
