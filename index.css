@@ -57,8 +57,8 @@
 }
 
 .Mr {
-    margin-top: 3px;
-    margin-bottom: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .productMatter {
@@ -202,11 +202,6 @@
     margin-top: 6px;
 }
 
-.Mr1 {
-    border-radius: 50px;
-    height: 10px;
-}
-
 .resS {
     display: none;
     width: 43px;
@@ -249,6 +244,10 @@
         margin-left: 8px;
         margin-right: 8px;
         font-size: 12px;
+    }
+    .Mr {
+        margin-top: 1px;
+        margin-bottom: 2px;
     }
     .Sm {
         font-size: 6px;
@@ -295,6 +294,9 @@
         display: block;
     }
     .Sm1 {
-        font-weight: 400;
+        font-weight: 410;
+    }
+    .progress {
+        height: 2px;
     }
 }
